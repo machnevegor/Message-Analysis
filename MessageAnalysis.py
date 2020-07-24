@@ -20,19 +20,15 @@
 # 5.3) step to remove punctuation mark if it is at the beginning of the message
 # 6) distribution of commands
 
-# global output variables
-global msg_links
-msg_links = []
-global msg_commands
-msg_commands = []
-
 # main arrays
 bot_prefixes = ["owl", "сова"]
 start_of_https_links = ["https://"]
 union_words = [",but ", " and ", ", а", ", но", ", и", " и "]
-not_influencing_words = [", excuse me,", ", excuse me", ", excuse me", "excuse me,", "excuse me", ", please,",
-                         ", please", "please,", "please", ", pray,", ", pray", "pray,", "pray", ", пожалуйста,",
-                         ", пожалуйста", "пожалуйста,", "пожалуйста"]
+not_influencing_words = [", excuse me,", ", excuse me", "excuse me,", "excuse me", ", please,", ", please", "please,",
+                         "please", ", pray,", ", pray", "pray,", "pray", ", пожалуйста,", ", пожалуйста", "пожалуйста,",
+                         "пожалуйста", ", желательно,", ", желательно", "желательно,", "желательно", ", быстро,",
+                         ", быстро", "быстро,", "быстро", ", быстрей,", ", быстрей", "быстрей,", "быстрей",
+                         ", побыстрей,", ", побыстрей", "побыстрей,", "побыстрей"]
 punctuation_marks = [".", ",", ";", "!", "?"]
 
 
@@ -272,6 +268,11 @@ def checking_for_links_in_the_message(memory_array):
 
 # 1) detecting a prefix in context
 def start_message_analysis(msg):
+    # global output variables
+    global msg_links
+    msg_links = []
+    global msg_commands
+    msg_commands = []
     # creating a character-by-character array from a message
     check_for_prefixes = []
     for i in msg:
