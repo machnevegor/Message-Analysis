@@ -11,7 +11,7 @@ I created this library for discord.py, but you can use it for other projects as 
 It is made in order to analyze the text of the message, look for prefixes and links, 
 and it also knows how to break the text into simple commands. Good luck!
 
-# Library author:
-# MachnevEgor_https://vk.com/machnev_egor
-# Contact in email:
-# mea90608744@gmail.com
+Library author:
+MachnevEgor_https://vk.com/machnev_egor
+Contact in email:
+meb.official.com@gmail.com
