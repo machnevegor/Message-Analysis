@@ -1,7 +1,7 @@
 # Library author:
 # MachnevEgor_https://vk.com/machnev_egor
 # Contact in email:
-# mea90608744@gmail.com
+# meb.official.com@gmail.com
 
 # Everything you need to get started:
 # import MessageAnalysis
@@ -307,4 +307,4 @@ def start_message_analysis(msg):
 # Library author:
 # MachnevEgor_https://vk.com/machnev_egor
 # Contact in email:
-# mea90608744@gmail.com
+# meb.official.com@gmail.com
